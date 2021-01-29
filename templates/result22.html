@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>Emotion Detection App</title>
+<body>
+<body style="background-color:powderblue;">
+<div align="center">
+
+<img src="{{ url_for('static', filename='meditate.jpg') }}" width="400" height="400">
+
+<p style="font-size:150%;">@Hello Champ@</p>
+
+<p style="font-size:200%;">Take it easy</p><font style="font-size:300%;" color="green">"Breathe easily"</font>
+
+<p style="font-size:150%;">Play the below song and let it go</p>
+
+<audio controls>
+  
+<source src={{ url_for('static', filename="Eagles.mp3") }} type="audio/mpeg">
+
+</audio>
+
+</div>
+
+</body>
+</html>

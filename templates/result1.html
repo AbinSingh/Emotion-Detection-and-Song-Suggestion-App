@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<title>Emotion Detection App</title>
+<body>
+<body style="background-color:rgb(255, 99, 71)";>
+
+<div align="center">
+
+<img src="{{ url_for('static', filename='love.jpg') }}" width="400" height="400">
+
+<p style="font-size:150%;">@Hello Human@</p>
+
+<p style="font-size:200%;">You are in love</p><font style="font-size:300%;" color="green">"Spread Love as much you can"</font>
+
+<p style="font-size:150%;">Click below to feel your love</p>
+
+<audio controls>
+  
+<source src={{ url_for('static', filename="surya.mp3") }} type="audio/mpeg">
+
+</audio>
+
+</div>
+</body>
+</html>
